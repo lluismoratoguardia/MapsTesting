@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13389270F366196BB50B7CA9618A6A45 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E38CC922B18493A268CA0ED12D55E /* ReplaceMe.swift */; };
 		17B13EAFD61A469EA69C5AE94BED8BA8 /* Pods-MapsTesting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A422FFB21F7C229C47143D280843697 /* Pods-MapsTesting_Example-dummy.m */; };
 		37A2D78E82ACD3BB45EB96AE1B964B93 /* MapsTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D5400957ED957CB7B3C67D75455E0A /* MapsTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3929115A2717592D8FC54D99A6376CE5 /* Pods-MapsTesting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DE955E487FC515A7344D95D150F2C0 /* Pods-MapsTesting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +14,7 @@
 		3E0A2D37FEF17101A1201710CF9DB1AF /* MapsTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D5210D99203D99665D66402D31467C /* MapsTesting-dummy.m */; };
 		472FCC3BAA238C6CF6054967EA7DFD96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		541595E7BE5B1A14C55024C460889A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		56FE675C2136D62700C0D5E1 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE675B2136D62700C0D5E1 /* TestingView.swift */; };
 		AC1B9C6FBE6E717839D1C3516BB73F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B4E452DCB4A138568A0E8EA56E8C14EC /* Pods-MapsTesting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21960EBD8022067DA4F97B3D773B9 /* Pods-MapsTesting_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,30 +39,30 @@
 /* Begin PBXFileReference section */
 		00D21960EBD8022067DA4F97B3D773B9 /* Pods-MapsTesting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapsTesting_Tests-dummy.m"; sourceTree = "<group>"; };
 		0B1ECE5EB103E695E6F2E4930FED3FEA /* Pods-MapsTesting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapsTesting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30EF8C720AFD06D4DE61125C23A5238D /* MapsTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapsTesting.framework; path = MapsTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EF8C720AFD06D4DE61125C23A5238D /* MapsTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapsTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CBFB8059BADE578388523B3E3C8BAC /* MapsTesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapsTesting-prefix.pch"; sourceTree = "<group>"; };
 		42B69DAB8B3E292E2935FB556350D3A6 /* MapsTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapsTesting.modulemap; sourceTree = "<group>"; };
-		46988446E5B227FF9074C96DC23AA328 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46988446E5B227FF9074C96DC23AA328 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		47464B4AD1EEBA2557DCF64731AC866E /* Pods-MapsTesting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapsTesting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A422FFB21F7C229C47143D280843697 /* Pods-MapsTesting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapsTesting_Example-dummy.m"; sourceTree = "<group>"; };
-		5143AE587C53B9415C6F8D2A03267F99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5143AE587C53B9415C6F8D2A03267F99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		56FE675B2136D62700C0D5E1 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65D5400957ED957CB7B3C67D75455E0A /* MapsTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapsTesting-umbrella.h"; sourceTree = "<group>"; };
 		6C1C921AAE3A6F9E458624714F41415D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70E1AB2FAF365316A270F028F1007285 /* Pods-MapsTesting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapsTesting_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		742210F0C1241047692A16A6C7A64E73 /* Pods_MapsTesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapsTesting_Tests.framework; path = "Pods-MapsTesting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742210F0C1241047692A16A6C7A64E73 /* Pods_MapsTesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTesting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A93B98D693B0C8C8ED97E547205587 /* Pods-MapsTesting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapsTesting_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B1243E1D7E7DF56ABE6C018862E92A4 /* Pods-MapsTesting_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapsTesting_Example-resources.sh"; sourceTree = "<group>"; };
 		80A204CD94F25C5D727FF6BF36B1041D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88DE955E487FC515A7344D95D150F2C0 /* Pods-MapsTesting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapsTesting_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D7239AD8FD7C3AE57D7D87D068DF623 /* MapsTesting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapsTesting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D7239AD8FD7C3AE57D7D87D068DF623 /* MapsTesting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MapsTesting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8EC8CF4099AFCE0E1EBCE9608E8DE174 /* Pods-MapsTesting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapsTesting_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A18E38CC922B18493A268CA0ED12D55E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MapsTesting/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2201AE68FD9B0A01A0762F3FC9A686F /* MapsTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapsTesting.xcconfig; sourceTree = "<group>"; };
 		A4D5210D99203D99665D66402D31467C /* MapsTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapsTesting-dummy.m"; sourceTree = "<group>"; };
 		B9D0E44F3414D512DE0972D846E5989C /* Pods-MapsTesting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapsTesting_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CE79C6B8F0508A007C865900143F392A /* Pods_MapsTesting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapsTesting_Example.framework; path = "Pods-MapsTesting_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE79C6B8F0508A007C865900143F392A /* Pods_MapsTesting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTesting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B97FE47C43E661C38C05F6B9F10B72 /* Pods-MapsTesting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapsTesting_Tests.modulemap"; sourceTree = "<group>"; };
 		DC1F55338BC876FEADF7622C572C3887 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC61C07DB81C273F1F4ED75701114556 /* Pods-MapsTesting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapsTesting_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -117,6 +117,14 @@
 				913D481FE868447B4F92CB6AB360D140 /* Pods-MapsTesting_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56FE675A2136D60C00C0D5E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56FE675B2136D62700C0D5E1 /* TestingView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		598AE80E7AAEDA58ACFD46F2A9E4945F /* Pod */ = {
@@ -209,7 +217,7 @@
 		ECBF1322AF36BBEEAB3330607F00F90C /* MapsTesting */ = {
 			isa = PBXGroup;
 			children = (
-				A18E38CC922B18493A268CA0ED12D55E /* ReplaceMe.swift */,
+				56FE675A2136D60C00C0D5E1 /* Classes */,
 				598AE80E7AAEDA58ACFD46F2A9E4945F /* Pod */,
 				C61EAED3E333F821C8BD2858BCB3B5A5 /* Support Files */,
 			);
@@ -318,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					B6D6BCF513A11147A3C1E00FB96B1466 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -360,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E0A2D37FEF17101A1201710CF9DB1AF /* MapsTesting-dummy.m in Sources */,
-				13389270F366196BB50B7CA9618A6A45 /* ReplaceMe.swift in Sources */,
+				56FE675C2136D62700C0D5E1 /* TestingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2201AE68FD9B0A01A0762F3FC9A686F /* MapsTesting.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,6 +690,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2201AE68FD9B0A01A0762F3FC9A686F /* MapsTesting.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

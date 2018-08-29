@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1910BE019523B5CA94E04DCD /* MapsTesting.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MapsTesting.podspec; path = ../MapsTesting.podspec; sourceTree = "<group>"; };
+		1910BE019523B5CA94E04DCD /* MapsTesting.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MapsTesting.podspec; path = ../MapsTesting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35DE3B2FA5F920B991886CAE /* Pods_MapsTesting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTesting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D156F71536E1ACE1D498CD /* Pods-MapsTesting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsTesting_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapsTesting_Example/Pods-MapsTesting_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B1A0ED9AF2C2AE4DEAF3AB0 /* Pods-MapsTesting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsTesting_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapsTesting_Example/Pods-MapsTesting_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACE51AFB9204008FA782 /* MapsTesting_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsTesting_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6CB8FE01F9B0A0FDB33A54BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9FFE7B25E7A7FDF536490AD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6CB8FE01F9B0A0FDB33A54BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9FFE7B25E7A7FDF536490AD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC38CD1AA2A210846669A9A0 /* Pods_MapsTesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTesting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HPTZQVVZ3Y;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HPTZQVVZ3Y;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -469,6 +471,7 @@
 			baseConfigurationReference = 4B1A0ED9AF2C2AE4DEAF3AB0 /* Pods-MapsTesting_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPTZQVVZ3Y;
 				INFOPLIST_FILE = MapsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +487,7 @@
 			baseConfigurationReference = 49D156F71536E1ACE1D498CD /* Pods-MapsTesting_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPTZQVVZ3Y;
 				INFOPLIST_FILE = MapsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CED79F796990C7229A4F719 /* Pods-MapsTesting_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HPTZQVVZ3Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C1D0E4F66D252C5D3ABA9A1 /* Pods-MapsTesting_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HPTZQVVZ3Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

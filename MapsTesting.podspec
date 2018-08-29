@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MapsTesting'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MapsTesting.'
+  s.summary          = 'This is a testing library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Such a weird description but it has to be longer than the summary so let's write some more weird description.
                        DESC
 
   s.homepage         = 'https://github.com/lluismoratoguardia/MapsTesting'
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.swift_version     = '4.1'
 end
