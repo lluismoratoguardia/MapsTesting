@@ -1,0 +1,6 @@
+framework module MapsTesting {
+  umbrella header "MapsTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

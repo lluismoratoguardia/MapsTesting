@@ -1,0 +1,22 @@
+{
+  "name": "MapsTesting",
+  "version": "0.1.0",
+  "summary": "A short description of MapsTesting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lluismoratoguardia/MapsTesting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lluismoratoguardia": "lluis.morato@hippo.tech"
+  },
+  "source": {
+    "git": "https://github.com/lluismoratoguardia/MapsTesting.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MapsTesting/Classes/**/*"
+}

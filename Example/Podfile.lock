@@ -1,0 +1,16 @@
+PODS:
+  - MapsTesting (0.1.0)
+
+DEPENDENCIES:
+  - MapsTesting (from `../`)
+
+EXTERNAL SOURCES:
+  MapsTesting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MapsTesting: aa46dba48cd0238ddba468677cc13a37fd9c99c4
+
+PODFILE CHECKSUM: d9bf5cb6a0c5f327486397d48d209e0d35aeef5d
+
+COCOAPODS: 1.5.3
