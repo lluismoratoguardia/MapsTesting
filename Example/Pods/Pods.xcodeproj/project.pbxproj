@@ -119,6 +119,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		56793B752138138C0064C794 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56FE675B2136D62700C0D5E1 /* TestingView.swift */,
+			);
+			name = Classes;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		598AE80E7AAEDA58ACFD46F2A9E4945F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +218,7 @@
 		ECBF1322AF36BBEEAB3330607F00F90C /* MapsTesting */ = {
 			isa = PBXGroup;
 			children = (
-				56FE675B2136D62700C0D5E1 /* TestingView.swift */,
+				56793B752138138C0064C794 /* Classes */,
 				598AE80E7AAEDA58ACFD46F2A9E4945F /* Pod */,
 				C61EAED3E333F821C8BD2858BCB3B5A5 /* Support Files */,
 			);
