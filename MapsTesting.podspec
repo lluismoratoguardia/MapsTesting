@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MapsTesting'
-  s.version          = '0.3.0'
+  s.version          = '1.0'
   s.summary          = 'This is a testing library'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ Such a weird description but it has to be longer than the summary so let's write
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lluismoratoguardia' => 'lluis.morato@hippo.tech' }
-  s.source           = { :git => 'https://github.com/lluismoratoguardia/MapsTesting.git'} #, :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lluismoratoguardia/MapsTesting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'MapsTesting/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MapsTesting' => ['MapsTesting/Assets/*.png']
